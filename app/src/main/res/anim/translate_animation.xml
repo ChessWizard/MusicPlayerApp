@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Dondurme animasyonu ozellikleri-->
+    <!-- 2 saniye boyunca gozukecek -> android:duration:2000 -->
+    <!--NOT: Ekranin sol tarafi 0% iken sag tarafi 100% dir-->
+    <translate
+        android:duration ="5000"
+        android:fromXDelta="100%p"
+        android:toXDelta="-100%p"
+        android:repeatMode = "restart"
+        android:repeatCount = "100"/>
+
+</set>
