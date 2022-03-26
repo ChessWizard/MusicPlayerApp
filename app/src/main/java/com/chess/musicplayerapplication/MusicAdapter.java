@@ -34,7 +34,7 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MusicViewHol
         // tasarim gorunumlerine ulasabiliyoruz.(card_view_design.xml)
 
         private TextView text_music;
-        private  CardView card_music;
+        private CardView card_music;
 
         public MusicViewHolder(@NonNull View itemView) {
             super(itemView);
