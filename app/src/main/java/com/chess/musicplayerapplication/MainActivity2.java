@@ -398,6 +398,13 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+        mediaPlayer.pause();
+    }
+
     // Muzik suresini gostermeye yarayacak metot
 
     public String createTimeLabel(int currentPosition){
@@ -430,6 +437,8 @@ public class MainActivity2 extends AppCompatActivity {
 
         return timeLabel;
     }
+
+
 
 
 }
